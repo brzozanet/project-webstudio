@@ -69,6 +69,11 @@
     color: $secondaryColorBlack;
   }
 
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+
   &__form-label &__form-icon {
     transition-property: fill;
     transition-duration: $transitionDurationDefault;
@@ -148,3 +153,22 @@
     color: $primaryColor;
   }
 }
+
+/* -------------------- RESPONSIVE MOBILE -------------------- */
+
+@media (max-width: 480px) {
+  .modal {
+    width: 450px;
+  }
+
+  .modal__form-check {
+    font-size: 12px;
+    letter-spacing: 0.03em;
+  }
+
+  .modal__form-btn {
+    margin: 30px auto;
+  }
+}
+
+/* -------------------- END RESPONSIVE MOBILE -------------------- */

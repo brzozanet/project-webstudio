@@ -1,20 +1,10 @@
 .advantages {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 94px 0;
 
   &__list {
     display: flex;
     justify-content: space-between;
-  }
-
-  &__list-item {
-    max-width: 270px;
-    display: inline-block;
-    margin-right: 20px;
-  }
-
-  &__list-item:last-child {
-    margin-right: 0;
+    gap: 20px;
   }
 
   &__box {
@@ -39,3 +29,21 @@
     color: $tertiaryColorGrey;
   }
 }
+
+/* -------------------- RESPONSIVE MOBILE -------------------- */
+
+@media (max-width: 480px) {
+  .advantages {
+    padding: 60px 15px;
+  }
+
+  .advantages__list {
+    flex-wrap: wrap;
+  }
+
+  .advantages__title {
+    text-align: center;
+  }
+}
+
+/* -------------------- END RESPONSIVE MOBILE -------------------- */

@@ -32,3 +32,13 @@
     bottom: 0;
   }
 }
+
+/* -------------------- RESPONSIVE MOBILE -------------------- */
+
+@media (max-width: 480px) {
+  .offer {
+    display: none;
+  }
+}
+
+/* -------------------- END RESPONSIVE MOBILE -------------------- */

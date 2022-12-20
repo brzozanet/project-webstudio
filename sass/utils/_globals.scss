@@ -36,3 +36,13 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* -------------------- RESPONSIVE MOBILE -------------------- */
+
+@media (max-width: 480px) {
+  .section {
+    padding-bottom: 0;
+  }
+}
+
+/* -------------------- END RESPONSIVE MOBILE -------------------- */

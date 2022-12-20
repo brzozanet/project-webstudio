@@ -1,22 +1,20 @@
 .team {
   text-align: center;
   background-color: #f5f4fa;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 94px 0;
   margin-bottom: 0px;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
 
   &__list-item {
     background-color: $secondaryColorWhite;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    max-width: 270px;
-    display: inline-block;
-    margin-right: 30px;
-  }
-
-  &__list-item:last-child {
-    margin-right: 0;
   }
 
   &__photo {
@@ -53,3 +51,29 @@
     cursor: pointer;
   }
 }
+
+/* -------------------- RESPONSIVE MOBILE -------------------- */
+
+@media (max-width: 480px) {
+  .team {
+    padding: 60px 15px;
+  }
+
+  .team__list {
+    flex-wrap: wrap;
+  }
+
+  .team__list-item {
+    width: 100%;
+  }
+
+  .team__photo > img {
+    width: 100%;
+  }
+
+  .team__description-text {
+    margin-bottom: 16px;
+  }
+}
+
+/* -------------------- END RESPONSIVE MOBILE -------------------- */

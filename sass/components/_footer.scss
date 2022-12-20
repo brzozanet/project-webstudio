@@ -101,3 +101,31 @@
     outline: none;
   }
 }
+
+/* -------------------- RESPONSIVE MOBILE -------------------- */
+
+@media (max-width: 480px) {
+  .footer__container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer__address {
+    margin-bottom: 60px;
+  }
+
+  .footer__socials {
+    margin-left: 0;
+    margin-bottom: 60px;
+  }
+
+  .footer__newsletter {
+    margin-left: 0;
+  }
+
+  .footer__newsletter-form {
+    flex-direction: column;
+  }
+}
+
+/* -------------------- END RESPONSIVE MOBILE -------------------- */
