@@ -7,7 +7,9 @@
     url(../images/hero-underlay.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  padding: 200px 0;
+  background-size: cover;
+  max-height: 400px;
+  padding: 118px 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,9 +22,9 @@
   &__title {
     color: $secondaryColorWhite;
     text-transform: uppercase;
-    font-size: 44px;
+    font-size: 26px;
     font-weight: 900;
-    line-height: 1.4;
+    line-height: 1.6;
     letter-spacing: 0.06em;
     margin-bottom: 30px;
   }
@@ -52,19 +54,19 @@
   }
 }
 
-/* -------------------- RESPONSIVE MOBILE -------------------- */
+/* -------------------- RESPONSIVE DESKTOP -------------------- */
 
-@media (max-width: 480px) {
+@media (min-width: 1200px) {
   .hero {
-    max-height: 400px;
-    background-size: cover;
-    padding: 118px 50px;
+    min-height: 600px;
+    background-size: auto;
+    padding: 200px 0;
   }
 
   .hero__title {
-    font-size: 26px;
-    line-height: 1.6;
+    font-size: 44px;
+    line-height: 1.4;
   }
 }
 
-/* -------------------- END RESPONSIVE MOBILE -------------------- */
+/* -------------------- END RESPONSIVE DESKTOP -------------------- */

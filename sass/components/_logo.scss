@@ -3,7 +3,7 @@
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   text-decoration: none;
-  margin-right: 93px;
+  margin-right: 0;
 
   &--header {
     color: #000;
@@ -14,12 +14,12 @@
   }
 }
 
-/* -------------------- RESPONSIVE MOBILE -------------------- */
+/* -------------------- RESPONSIVE DESKTOP -------------------- */
 
-@media (max-width: 480px) {
+@media (min-width: 1200px) {
   .logo {
-    margin-right: 0;
+    margin-right: 93px;
   }
 }
 
-/* -------------------- END RESPONSIVE MOBILE -------------------- */
+/* -------------------- END RESPONSIVE DESKTOP -------------------- */

@@ -5,7 +5,13 @@
 
   &__container {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    text-align: center;
+  }
+
+  &__address {
+    margin-bottom: 60px;
   }
 
   &__address-list {
@@ -43,7 +49,8 @@
   }
 
   &__socials {
-    margin-left: 70px;
+    margin-left: 0;
+    margin-bottom: 60px;
   }
 
   &__socials-list {
@@ -70,11 +77,12 @@
   }
 
   &__newsletter {
-    margin-left: 78px;
+    margin-left: 0;
   }
 
   &__newsletter-form {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 12px;
@@ -102,30 +110,30 @@
   }
 }
 
-/* -------------------- RESPONSIVE MOBILE -------------------- */
+/* -------------------- RESPONSIVE DESKTOP -------------------- */
 
-@media (max-width: 480px) {
+@media (min-width: 1200px) {
   .footer__container {
-    flex-direction: column;
-    text-align: center;
+    flex-direction: row;
+    text-align: left;
   }
 
   .footer__address {
-    margin-bottom: 60px;
+    margin-bottom: 0;
   }
 
   .footer__socials {
-    margin-left: 0;
-    margin-bottom: 60px;
+    margin-left: 70px;
+    margin-bottom: 0;
   }
 
   .footer__newsletter {
-    margin-left: 0;
+    margin-left: 78px;
   }
 
   .footer__newsletter-form {
-    flex-direction: column;
+    flex-direction: row;
   }
 }
 
-/* -------------------- END RESPONSIVE MOBILE -------------------- */
+/* -------------------- END RESPONSIVE DESKTOP -------------------- */

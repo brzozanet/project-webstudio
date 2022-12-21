@@ -1,10 +1,11 @@
 .clients {
-  padding-top: 94px;
+  padding: 60px 15px;
   text-align: center;
 
   &__list {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 20px;
   }
 
@@ -15,6 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-basis: calc((100% - 30px) / 2);
     transition-property: border;
     transition-duration: $transitionDurationDefault;
     transition-timing-function: $transitionTimingDefault;
@@ -37,20 +39,20 @@
   }
 }
 
-/* -------------------- RESPONSIVE MOBILE -------------------- */
+/* -------------------- RESPONSIVE DESKTOP -------------------- */
 
-@media (max-width: 480px) {
+@media (min-width: 1200px) {
   .clients {
-    padding: 60px 15px;
+    padding-top: 94px;
   }
 
   .clients__list {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
 
   .clients__list-item {
-    flex-basis: calc((100% - 30px) / 2);
+    flex-basis: auto;
   }
 }
 
-/* -------------------- END RESPONSIVE MOBILE -------------------- */
+/* -------------------- END RESPONSIVE DESKTOP -------------------- */

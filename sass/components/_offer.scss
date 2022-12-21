@@ -1,4 +1,5 @@
 .offer {
+  display: none;
   text-align: center;
 
   &__list {
@@ -33,12 +34,12 @@
   }
 }
 
-/* -------------------- RESPONSIVE MOBILE -------------------- */
+/* -------------------- RESPONSIVE DESKTOP -------------------- */
 
-@media (max-width: 480px) {
+@media (min-width: 1200px) {
   .offer {
-    display: none;
+    display: block;
   }
 }
 
-/* -------------------- END RESPONSIVE MOBILE -------------------- */
+/* -------------------- END RESPONSIVE DESKTOP -------------------- */

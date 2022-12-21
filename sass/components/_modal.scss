@@ -19,7 +19,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 528px;
+  width: 450px;
   padding: 40px;
   min-height: 581px;
   background-color: $secondaryColorWhite;
@@ -128,7 +128,7 @@
 
   &__form-btn {
     padding: 10px 76px;
-    margin: 30px 120px;
+    margin: 30px auto;
     background-color: $primaryColor;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: $borderRadiusDefault;
@@ -144,7 +144,8 @@
     display: block;
     margin-top: 20px;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
+    letter-spacing: 0.03em;
     line-height: 1.8;
     color: $tertiaryColorGrey;
   }
@@ -154,21 +155,20 @@
   }
 }
 
-/* -------------------- RESPONSIVE MOBILE -------------------- */
+/* -------------------- RESPONSIVE DESKTOP -------------------- */
 
-@media (max-width: 480px) {
+@media (min-width: 1200px) {
   .modal {
-    width: 450px;
+    width: 528px;
   }
 
   .modal__form-check {
-    font-size: 12px;
-    letter-spacing: 0.03em;
+    font-size: 14px;
   }
 
   .modal__form-btn {
-    margin: 30px auto;
+    margin: 30px 120px;
   }
 }
 
-/* -------------------- END RESPONSIVE MOBILE -------------------- */
+/* -------------------- END RESPONSIVE DESKTOP -------------------- */

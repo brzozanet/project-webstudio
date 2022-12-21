@@ -1,9 +1,10 @@
 .advantages {
-  padding: 94px 0;
+  padding: 60px 15px;
 
   &__list {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 20px;
   }
 
@@ -20,6 +21,7 @@
   &__title {
     font-size: 14px;
     text-transform: uppercase;
+    text-align: center;
     margin-bottom: 10px;
   }
 
@@ -30,20 +32,20 @@
   }
 }
 
-/* -------------------- RESPONSIVE MOBILE -------------------- */
+/* -------------------- RESPONSIVE DESKTOP -------------------- */
 
-@media (max-width: 480px) {
+@media (min-width: 1200px) {
   .advantages {
-    padding: 60px 15px;
+    padding: 94px 0;
   }
 
   .advantages__list {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
 
   .advantages__title {
-    text-align: center;
+    text-align: left;
   }
 }
 
-/* -------------------- END RESPONSIVE MOBILE -------------------- */
+/* -------------------- END RESPONSIVE DESKTOP -------------------- */
