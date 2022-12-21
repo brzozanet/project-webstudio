@@ -8,15 +8,13 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  max-height: 400px;
-  padding: 118px 50px;
+  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
 
   &__content {
     text-align: center;
-    width: 700px;
   }
 
   &__title {
@@ -60,7 +58,6 @@
   .hero {
     min-height: 600px;
     background-size: auto;
-    padding: 200px 0;
   }
 
   .hero__title {

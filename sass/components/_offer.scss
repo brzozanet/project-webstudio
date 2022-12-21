@@ -8,13 +8,7 @@
   }
 
   &__list-item {
-    display: inline-block;
-    margin-right: 20px;
     position: relative;
-  }
-
-  &__list-item:last-child {
-    margin-right: 0;
   }
 
   &__image {

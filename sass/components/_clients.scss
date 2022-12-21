@@ -39,6 +39,16 @@
   }
 }
 
+/* ---------- RESPONSIVE TABLET ---------- */
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .clients__list-item {
+    flex-basis: calc((100% - 40px) / 3);
+  }
+}
+
+/* ---------- END RESPONSIVE TABLET ---------- */
+
 /* ---------- RESPONSIVE DESKTOP ---------- */
 
 @media screen and (min-width: 1200px) {
