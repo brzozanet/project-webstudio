@@ -157,7 +157,7 @@
 
 /* ---------- RESPONSIVE DESKTOP ---------- */
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .modal {
     width: 528px;
   }

@@ -56,7 +56,7 @@
 
 /* ---------- RESPONSIVE DESKTOP ---------- */
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .hero {
     min-height: 600px;
     background-size: auto;
