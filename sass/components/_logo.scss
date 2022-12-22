@@ -16,7 +16,7 @@
 
 /* ---------- RESPONSIVE DESKTOP ---------- */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: $breakpointDesktopStart) {
   .logo {
     margin-right: 93px;
   }

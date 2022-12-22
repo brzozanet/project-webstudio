@@ -4,10 +4,9 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images/hero-underlay.jpg);
+    url(../images/hero-480.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
   height: 400px;
   display: flex;
   justify-content: center;
@@ -36,7 +35,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../images/hero-underlay@2x.jpg);
+      url(../images/hero-1600@2x.jpg);
   }
 }
 
@@ -48,17 +47,36 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../images/hero-underlay@3x.jpg);
+      url(../images/hero-1600@3x.jpg);
   }
 }
 
+/* ---------- RESPONSIVE TABLET ---------- */
+
+@media screen and (min-width: $breakpointTabletStart) and (max-width: $breakpointTabletEnd) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/hero-768.jpg);
+    padding-top: 80px;
+  }
+}
+
+/* ---------- END RESPONSIVE TABLET ---------- */
+
 /* ---------- RESPONSIVE DESKTOP ---------- */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: $breakpointDesktopStart) {
   .hero {
-    min-height: 600px;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/hero-1600.jpg);
+    height: 600px;
     padding-top: 80px;
-    background-size: auto;
   }
 
   .hero__title {

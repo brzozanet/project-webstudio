@@ -92,7 +92,7 @@
 
 /* ---------- RESPONSIVE TABLET ---------- */
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: $breakpointTabletStart) and (max-width: $breakpointTabletEnd) {
   .header__menu-main {
     margin-left: 93px;
   }
@@ -112,7 +112,7 @@
 
 /* ---------- RESPONSIVE DESKTOP ---------- */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: $breakpointDesktopStart) {
   .header {
     padding: 5px 0;
   }

@@ -20,6 +20,9 @@
 
   &__photo {
     margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   &__description-name {
@@ -55,7 +58,7 @@
 
 /* ---------- RESPONSIVE TABLET ---------- */
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: $breakpointTabletStart) and (max-width: $breakpointTabletEnd) {
   .team__list-item {
     flex-basis: calc((100% - 30px) / 2);
   }
@@ -65,7 +68,7 @@
 
 /* ---------- RESPONSIVE DESKTOP ---------- */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: $breakpointDesktopStart) {
   .team {
     padding: 94px 0;
   }

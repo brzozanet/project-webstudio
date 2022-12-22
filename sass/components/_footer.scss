@@ -89,8 +89,7 @@
   }
 
   &__newsletter-form-input {
-    // width: 358px;
-    width: 450px;
+    min-width: calc(100% - 30px);
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     background-color: transparent;
@@ -113,12 +112,14 @@
 
 /* ---------- RESPONSIVE TABLET ---------- */
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: $breakpointTabletStart) and (max-width: $breakpointTabletEnd) {
   .footer__container {
     flex-direction: row;
     justify-content: space-around;
-    // align-items: flex-start;
     flex-wrap: wrap;
+  }
+  .footer__newsletter-form-input {
+    width: 450px;
   }
 }
 
@@ -126,7 +127,7 @@
 
 /* ---------- RESPONSIVE DESKTOP ---------- */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: $breakpointDesktopStart) {
   .footer__container {
     flex-direction: row;
     text-align: left;

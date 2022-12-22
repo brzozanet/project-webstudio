@@ -41,7 +41,7 @@
 
 /* ---------- RESPONSIVE TABLET ---------- */
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: $breakpointTabletStart) and (max-width: $breakpointTabletEnd) {
   .clients__list-item {
     flex-basis: calc((100% - 40px) / 3);
   }
@@ -51,7 +51,7 @@
 
 /* ---------- RESPONSIVE DESKTOP ---------- */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: $breakpointDesktopStart) {
   .clients {
     padding-top: 94px;
   }

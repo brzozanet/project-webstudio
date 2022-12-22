@@ -34,7 +34,7 @@
 
 /* ---------- RESPONSIVE TABLET ---------- */
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: $breakpointTabletStart) and (max-width: $breakpointTabletEnd) {
   .advantages__title {
     text-align: left;
   }
@@ -48,7 +48,7 @@
 
 /* ---------- RESPONSIVE DESKTOP ---------- */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: $breakpointDesktopStart) {
   .advantages {
     padding: 94px 0;
   }
