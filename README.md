@@ -4,4 +4,6 @@
 
 ### GoIT fullstack developer course
 
-HTML+CSS Poland >> Moduł 7 Responsywność >> Zadanie domowe
+![Screenshot App](https://raw.githubusercontent.com/brzozanet/goit-markup/main/github/gh-cover-goit-markup.png)
+
+**Strona WebStudio**, firmy zajmującej się projetkowaniem i wdrażaniem rozwiązań aplikacji intenetowych oraz rozwiązań graficznych. Zawiera trzy główne działy: _Agencja_, _Portfolio_ oraz _Kontakt_
