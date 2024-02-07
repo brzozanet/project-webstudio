@@ -17,5 +17,6 @@ Wykorzystane technologie i rozwiązania:
 - SASS
 - Flexbox
 - JavaScript
+- GIT & GitHub
 
 ![Screenshot App](https://raw.githubusercontent.com/brzozanet/goit-markup/main/github/gh-cover-goit-markup.png)
