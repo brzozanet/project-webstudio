@@ -1,4 +1,4 @@
-# WebStudio
+# 💻 WebStudio
 
 ### Projekt indywidualny GoIT fullstack developer course
 
