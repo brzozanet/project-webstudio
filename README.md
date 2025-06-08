@@ -14,7 +14,7 @@ Zobacz stronę online: [WebStudio](https://brzozanet.github.io/project-webstudio
 - **CSS3** (stylowanie z wykorzystaniem metodologii BEM)
 - **SASS** (preprocesor CSS dla lepszej organizacji stylów)
 - **JavaScript** (interaktywność strony)
-- **Flexbox** - (elastyczny układ strony)
+- **Flexbox** (elastyczny układ strony)
 - **Figma** (projekt graficzny)
 - **Git & GitHub** (kontrola wersji i hosting)
 
@@ -103,5 +103,7 @@ Projekt jest skonfigurowany do wdrożenia na GitHub Pages. Po zbudowaniu, strona
 ## 📄 Licencja
 
 Ten projekt jest udostępniony na licencji MIT. Szczegóły w pliku LICENSE.
+
+<br>
 
 ![Screenshot App](https://raw.githubusercontent.com/brzozanet/project-webstudio/main/images/gh-cover-goit-markup.png)
