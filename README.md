@@ -2,23 +2,23 @@
 
 ### Projekt indywidualny GoIT fullstack developer course
 
-## 🌟 O Projekcie
-
 WebStudio to strona internetowa firmy specjalizującej się w projektowaniu i wdrażaniu rozwiązań aplikacji internetowych oraz projektów graficznych. Zawiera trzy główne działy: _Agencja_, _Portfolio_ oraz _Kontakt_. Projekt został zbudowany z naciskiem na responsywność i zgodnie ze strategią Mobile First w celu poprawy doświadczeń użytkownika na urządzeniach mobilnych, poprawę pozycjonowania w wynikach wyszukiwania, szybsze ładowanie stron, elastyczność i skalowalność oraz minimalizację zbędnych elementów. Zastosowanie preprocesora SASS spowodowało większą zwięzłość i czytelność kodu, możliwość wprowadzenia zmiennych oraz obsługi zagnieżdżania oraz modularność.
 
-[Zobacz Demo](https://brzozanet.github.io/project-webstudio/)
+## 🌐 Demo
 
-## 🛠️ Użyte Technologie
+Zobacz stronę online: [WebStudio](https://brzozanet.github.io/project-webstudio/)
 
-- **HTML5** - struktura strony
-- **CSS3** - stylowanie z wykorzystaniem metodologii BEM
-- **SASS** - preprocesor CSS dla lepszej organizacji stylów
-- **JavaScript** - interaktywność strony
-- **Flexbox** - elastyczny układ strony
-- **Figma** - projekt graficzny
-- **Git & GitHub** - kontrola wersji i hosting
+## 🛠️ Użyte technologie
 
-## 📁 Struktura Projektu
+- **HTML5** (struktura strony)
+- **CSS3** (stylowanie z wykorzystaniem metodologii BEM)
+- **SASS** (preprocesor CSS dla lepszej organizacji stylów)
+- **JavaScript** (interaktywność strony)
+- **Flexbox** - (elastyczny układ strony)
+- **Figma** (projekt graficzny)
+- **Git & GitHub** (kontrola wersji i hosting)
+
+## 📁 Struktura projektu
 
 ```
 project-webstudio/
@@ -31,7 +31,7 @@ project-webstudio/
 └── portfolio.html    # Strona portfolio
 ```
 
-## 📋 Dostępne Strony
+## 📋 Dostępne strony
 
 1. **Strona Główna** (`index.html`)
 
@@ -46,7 +46,23 @@ project-webstudio/
    - Filtry kategorii
    - Szczegóły realizacji
 
-## 🚀 Jak Uruchomić Lokalnie
+## 📱 Responsywność
+
+Strona jest w pełni responsywna i dostosowana do następujących breakpointów:
+
+- Mobile: < 768px
+- Tablet: 768px - 1199px
+- Desktop: ≥ 1200px
+
+## 🔍 SEO i Wydajność
+
+- Zoptymalizowane obrazy
+- Semantyczny HTML
+- Szybkie ładowanie strony
+- Mobile-first approach
+- Dostępność (WCAG)
+
+## 🚀 Jak Uruchomić lokalnie
 
 1. Sklonuj repozytorium:
 
@@ -74,28 +90,15 @@ project-webstudio/
 
 5. Otwórz plik `index.html` w przeglądarce lub użyj lokalnego serwera (np. Live Server w VS Code)
 
-## 🌐 Dostęp do Wersji Developerskiej
-
 Po uruchomieniu lokalnego serwera, strona będzie dostępna pod adresem:
 
 - http://localhost:3000 (domyślny port dla większości lokalnych serwerów)
 - http://127.0.0.1:3000
 
-## 📱 Responsywność
+## 🌍 Wdrożenie
 
-Strona jest w pełni responsywna i dostosowana do następujących breakpointów:
-
-- Mobile: < 768px
-- Tablet: 768px - 1199px
-- Desktop: ≥ 1200px
-
-## 🔍 SEO i Wydajność
-
-- Zoptymalizowane obrazy
-- Semantyczny HTML
-- Szybkie ładowanie strony
-- Mobile-first approach
-- Dostępność (WCAG)
+Projekt jest skonfigurowany do wdrożenia na GitHub Pages. Po zbudowaniu, strona będzie dostępna pod adresem:
+`https://brzozanet.github.io/project-webstudio/`
 
 ## 📄 Licencja
 
